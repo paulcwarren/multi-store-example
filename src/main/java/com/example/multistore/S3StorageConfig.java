@@ -8,8 +8,5 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class S3StorageConfig {
 
-    @Bean
-    public String testStringBean() {
-        return "";
-    }
+    // add AmazonS3 client bean here
 }
